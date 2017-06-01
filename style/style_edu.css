@@ -1,0 +1,74 @@
+nav{
+
+}
+body{
+	background-color: #B2EBF2;
+	overflow-x: hidden;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+	
+.bg-footer{
+	background-color:#0277BD;
+	color:white;
+}
+.edu{
+	background-color: #80D8FF;
+}
+.school{
+	height: 300px;
+
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 25px 0 rgba(0,0,0,0.8);
+}
+img{
+	height:250px;
+	width:250px;
+}
+.row{
+	margin-bottom: 30px;
+
+}
+
+.mname{
+	font-family: 'Courgette', cursive;
+}
+.aff{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+}
+.year{
+
+	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+a{
+	color: #000;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F00;
+}
+
