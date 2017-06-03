@@ -36,7 +36,7 @@ img{
 	width:250px;
 }
 .row{
-	margin-bottom: 30px;
+	margin-bottom: -25px;
 
 }
 
@@ -45,6 +45,7 @@ img{
 }
 .aff{
 	font-family: 'Architects Daughter', cursive;
+	font-weight: bold;
 	font-size: 20px;
 }
 .year{
