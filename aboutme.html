@@ -5,8 +5,8 @@
 </head>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -31,24 +31,75 @@
 
 
 <link rel="shortcut icon" href="image/abc.ico"/>
-<link rel="stylesheet" type="text/css" href="style/style_aboutme.css">
+<link rel="stylesheet" type="text/css" href="style/style_edu.css"/>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 
+<style type="text/css">
+	
+	body{
+		background-image: url("https://wallpaperscraft.com/image/switzerland_alps_mountains_night_beautiful_landscape_99817_1920x1080.jpg");
+		width:100%;
+		height:100%;
+		object-fit: fill;
+		overflow-x: hidden;
+		background-size: cover;
+		
+	}
+	.headings{
+		color: #FFF;
+		font-family:'Kaushan Script', cursive;
+	}
+	.small-headings{
+		color:#FFF;
+		font-family:'Marck Script', cursive;
+	}
+.bg-footer{
+	margin-top: 60px;
+	background-color:#283593;
+	color:#FFF;
+	height: 60px;
+}
+nav{
+	position: fixed;
+}
+
+#emo{
+	color:white;
+	font-size: 250px;
+}
 
 
+</style>
 
 
+<script type="text/javascript">
+
+var emoji=['😊','😜','😉','😍','😛','😃','😭','😐','😍','😉','😊'];
+
+$(document).ready(function(){
+
+	$("#emo").html(emoji[Math.floor(Math.random()*11)]);
+
+});
+
+setInterval(function(){
+	$("#emo").html(emoji[Math.floor(Math.random()*11)]);
+},800);
+	
+
+</script>
 <body>
 
-<nav class="navbar navbar-light navbar-fixed-top bg-footer" style="margin-bottom: 0px" >
+
+<nav class="navbar navbar-light navbar-fixed-top" style="margin-bottom: 0px ; background-color: #0277BD" >
   <div class="container-fluid" style="position: fixed">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" style="color: black" href="#">About Me</a>
+      <a class="navbar-brand" style="color: black" href="aboutme.html">About Me</a>
     </div>
     <ul class="nav navbar-nav">
       <li><a  style="color: black" href="index.html">Home</a></li>
@@ -60,33 +111,23 @@
     </div>
   </div>
 </nav>
-<br><br><br><br><br><br>
-<div class="note row">
-	<h1 class="text-center col-xs-6"> We are working on it!!!</h1>
+
+
+<div class="text-center">
+	<br><br><br>
+	<h1 id="emo"></h1>
+	<br><br>
+	<h2 class="headings">We are working on it!</h2>
 </div>
 
-<div class="error404page">
-  <div class="newcharacter404">
-    <div class="chair404"></div>
-    <div class="leftshoe404"></div>
-    <div class="rightshoe404"></div>
-    <div class="legs404"></div>
-    <div class="torso404">
-      <div class="body404"></div>
-      <div class="leftarm404"></div>
-      <div class="rightarm404"></div>
-      <div class="head404">
-        <div class="eyes404"></div>
-      </div>
-    </div>
-    <div class="laptop404"></div>
-  </div>
-</div>
 
-<br><br><br><br><br><br><br>
-<footer class="navbar-bottom container-fluid bg-footer text-center"><br>
+
+<footer class="navbar-fixed-bottom container-fluid bg-footer text-center"><br>
   <p>All Right Reserved. Code Hosted on  <a href="https://github.com/craterkamath/craterkamath.github.io" style="color: white">GitHub<i class="fa fa-fw fa-github"></i></a></p> 
 </footer>
+
+
+
 
 </body>
 </html>

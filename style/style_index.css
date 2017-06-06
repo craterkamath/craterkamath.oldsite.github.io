@@ -37,6 +37,8 @@
 	height: 250px;
 	width: 250px;
 	margin:25px;
+	border-style: solid;
+	border-color: white;
 }
 
 .bg-footer{
